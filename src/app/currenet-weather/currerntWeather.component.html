@@ -1,0 +1,20 @@
+<div>
+  <div>
+    {{location?.CityName }}
+
+  </div>
+  <div>
+    {{location?.Temperature.Metric?.Value}}
+    {{location?.Temperature.Metric?.Unit }}
+
+  </div>
+  <div>
+    <img src="assets/{{location?.WeatherIcon}}.png" [alt]="location?.WeatherText">
+  </div>
+  <h3>{{location?.WeatherText}}</h3>
+
+  <!-- <button type="button" (click)="onFavoritesClick()">
+    {{ isClicked ? "Remove From Favorites" : "Add To Favorites" }}
+  </button> -->
+
+</div>

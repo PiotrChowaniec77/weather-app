@@ -1,0 +1,9 @@
+.daily-weather{
+
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    margin: 32px;
+}
